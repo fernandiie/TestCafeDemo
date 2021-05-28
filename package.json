@@ -9,7 +9,7 @@
     "test-firefox": "testcafe firefox ./pom/tests",
     "test-login-chrome": "testcafe chrome ./pom/tests/Login.test.js",
     "test-checkout-chrome": "testcafe chrome ./pom/tests/Checkout.test.js",
-    "test-products-chrome": "testcafe chrome ./pom/tests/Products.test.js"
+    "test-cart-chrome": "testcafe chrome ./pom/tests/ShoppingCart.test.js"
     
   },
   "author": "",
