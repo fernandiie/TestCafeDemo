@@ -1,0 +1,21 @@
+{
+  "name": "challenge1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-chrome": "testcafe chrome ./pom/tests",
+    "test-firefox": "testcafe firefox ./pom/tests",
+    "test-login-chrome": "testcafe chrome ./pom/tests/Login.test.js",
+    "test-checkout-chrome": "testcafe chrome ./pom/tests/Checkout.test.js",
+    "test-products-chrome": "testcafe chrome ./pom/tests/Products.test.js"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "testcafe": "^1.14.2"
+  }
+}
